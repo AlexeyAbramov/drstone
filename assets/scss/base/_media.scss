@@ -194,3 +194,46 @@
         }
     }
 }
+// MAX 375PX
+@media screen and (max-width: 375px){
+  .features{
+    &__title{
+      font-size: 21px;
+    }
+    &__text{
+      font-size: 23px;
+    }
+    &__button{
+      padding: 24px 8px;
+    }
+  }
+  .advantage{
+    .list-advantage{
+      &__image{
+        display: none;
+      }
+    }
+  }
+  .order{
+    .form-order{
+      &__inputs{
+        width: 100%;
+      }
+    }
+  }
+  .question{
+    .form-question{
+      &__inputs{
+        width: 100%;
+      }
+    }
+  }
+  .footer{
+    padding: 25px 0;
+    .list-footer{
+      &__link{
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -149,7 +149,7 @@ li {
 }
 
 .header {
-  background: url("/assets/images/bg-black.jpg") no-repeat center center/cover;
+  background: url("../images/bg-black.jpg") no-repeat center center/cover;
 }
 .header__inner {
   height: 130px;
@@ -179,7 +179,7 @@ li {
 }
 
 .features {
-  background: url("/assets/images/main/bg.jpg") no-repeat center 75%/cover;
+  background: url("../images/main/bg.jpg") no-repeat center 75%/cover;
   padding: 30px 0 50px 0;
 }
 .features__body {
@@ -207,7 +207,7 @@ li {
 
 .why {
   padding: 70px 0 80px 0;
-  background: url("/assets/images/bg-white.jpg") no-repeat center center/cover;
+  background: url("../images/bg-white.jpg") no-repeat center center/cover;
 }
 .why .top-why__headline {
   text-align: center;

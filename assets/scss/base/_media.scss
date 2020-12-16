@@ -68,170 +68,171 @@
   .question {
     background-size: 50%;
   }
-  .contact{
-      &__title{
-          font-size: 35px;
-      }
-      &__headline{
-          font-size: 21px;
-      }
+  .contact {
+    &__title {
+      font-size: 35px;
+    }
+    &__headline {
+      font-size: 21px;
+    }
   }
 }
 // MAX 420PX
-@media screen and (max-width: 420px){
-    h2{
-        font-size: 31px;
+@media screen and (max-width: 420px) {
+  h2 {
+    font-size: 31px;
+  }
+  .header {
+    &__inner {
+      height: 85px;
     }
-    .header{
-        &__inner{
-            height: 85px;
-        }
-        &__nav{
-            display: none;
-        }
+    &__nav {
+      display: none;
     }
-    .features{
-        &__body{
-            grid-template-columns: 1fr;
-        }
-        &__title{
-            font-size: 26px;
-        }
-        &__img{
-            display: none;
-        }
-        &__buttons{
-            margin-top: 65px;
-        }
-        &__button{
-            font-size: 13px;
-        }
+  }
+  .features {
+    &__body {
+      grid-template-columns: 1fr;
     }
-    .why{
-        .top-why{
-            &__icon{
-                width: 70px;
-            }
-        }
-        &__bottom{
-            .bottom-why{
-                &__text{
-                    font-size: 19px;
-                }
-                &__about-text{
-                    font-size: 16px;
-                }
-            }
-        }
+    &__title {
+      font-size: 26px;
     }
-    .example{
-        .tab-example{
-            align-items: center;
-            flex-direction: column;
-        }
+    &__img {
+      display: none;
     }
-    .advantage{
-        .list-advantage{
-            &__body{
-                margin-left: 25px;
-            }
-        }
+    &__buttons {
+      margin-top: 65px;
     }
-    .material{
-        .list-material{
-            grid-template-columns: 1fr;
-            grid-gap: 50px;
-            &__item{
-                height: 130px;
-            }
-        }
+    &__button {
+      font-size: 13px;
     }
-    .order{
-        background: none;
+  }
+  .why {
+    .top-why {
+      &__icon {
+        width: 70px;
+      }
     }
-    .sink{
-        .list-sink{
-            grid-template-columns: 1fr;
-            grid-gap: 20px;
-            &__image{
-                width: 50%;
-            }
+    &__bottom {
+      .bottom-why {
+        &__text {
+          font-size: 19px;
         }
+        &__about-text {
+          font-size: 16px;
+        }
+      }
     }
-    .calculate{
-        &__title{
-            font-size: 26px;
-        }
-        .form-calculate{
-            &__left{
-                margin-left: 0;
-                width: 100%;
-            }
-            &__wrapper{
-                flex-direction: column;
-            }
-            & select,
-            & input{
-                width: auto;
-            }
-            &__submit{
-                width: 100%!important;
-            }
-        }
+  }
+  .example {
+    .tab-example {
+      align-items: center;
+      flex-direction: column;
     }
-    .question{
-        background: none;
+  }
+  .advantage {
+    .list-advantage {
+      &__body {
+        margin-left: 25px;
+      }
     }
-    .contact{
-        &__inner{
-            grid-template-columns: 1fr;
-        }
-        &__map{
-            width: 100%;
-        }
-        &__title{
-            text-align: center;
-        }
+  }
+  .material {
+    .list-material {
+      grid-template-columns: 1fr;
+      grid-gap: 50px;
+      &__item {
+        height: 130px;
+      }
     }
+  }
+  .order {
+    background: none;
+  }
+  .sink {
+    .list-sink {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      &__image {
+        width: 50%;
+      }
+    }
+  }
+  .calculate {
+    &__title {
+      font-size: 26px;
+    }
+    .form-calculate {
+      &__left {
+        margin-left: 0;
+        width: 100%;
+      }
+      &__wrapper {
+        flex-direction: column;
+      }
+      & select,
+      & input {
+        width: auto;
+      }
+      &__submit {
+        width: 100% !important;
+      }
+    }
+  }
+  .question {
+    background: none;
+  }
+  .contact {
+    &__inner {
+      grid-template-columns: 1fr;
+    }
+    &__map {
+      width: 100%;
+    }
+    &__title {
+      text-align: center;
+    }
+  }
 }
 // MAX 375PX
-@media screen and (max-width: 375px){
-  .features{
-    &__title{
+@media screen and (max-width: 375px) {
+  .features {
+    &__title {
       font-size: 21px;
     }
-    &__text{
+    &__text {
       font-size: 23px;
     }
-    &__button{
+    &__button {
+      font-size: 10px;
       padding: 24px 8px;
     }
   }
-  .advantage{
-    .list-advantage{
-      &__image{
+  .advantage {
+    .list-advantage {
+      &__image {
         display: none;
       }
     }
   }
-  .order{
-    .form-order{
-      &__inputs{
+  .order {
+    .form-order {
+      &__inputs {
         width: 100%;
       }
     }
   }
-  .question{
-    .form-question{
-      &__inputs{
+  .question {
+    .form-question {
+      &__inputs {
         width: 100%;
       }
     }
   }
-  .footer{
+  .footer {
     padding: 25px 0;
-    .list-footer{
-      &__link{
+    .list-footer {
+      &__link {
         font-size: 16px;
       }
     }

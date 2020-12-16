@@ -1,0 +1,196 @@
+// MAX 1060PX
+@media screen and (max-width: 1060px) {
+  h2 {
+    font-size: 40px;
+  }
+  .header {
+    &__text {
+      font-size: 25px;
+    }
+    &__phone {
+      font-size: 21px;
+    }
+  }
+  .features {
+    &__title {
+      font-size: 37px;
+    }
+    &__buttons {
+      margin-top: 75px;
+    }
+    &__button {
+      padding: 24px 20px;
+      font-size: 17px;
+    }
+    &__img {
+      width: 80%;
+    }
+  }
+  .why {
+    .top-why {
+      &__content {
+        padding-right: 13px;
+      }
+    }
+  }
+  .material {
+    .list-material {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  .order {
+    background-size: 40%;
+    .form-order {
+      &__inputs {
+        margin-top: 25px;
+      }
+    }
+  }
+  .sink {
+    .list-sink {
+      &__image {
+        width: 80%;
+      }
+    }
+  }
+  .calculate {
+    .form-calculate {
+      flex-direction: column;
+      &__right {
+        align-items: center;
+        margin-top: 55px;
+      }
+      &__img {
+        width: 50%;
+      }
+    }
+  }
+  .question {
+    background-size: 50%;
+  }
+  .contact{
+      &__title{
+          font-size: 35px;
+      }
+      &__headline{
+          font-size: 21px;
+      }
+  }
+}
+// MAX 420PX
+@media screen and (max-width: 420px){
+    h2{
+        font-size: 31px;
+    }
+    .header{
+        &__inner{
+            height: 85px;
+        }
+        &__nav{
+            display: none;
+        }
+    }
+    .features{
+        &__body{
+            grid-template-columns: 1fr;
+        }
+        &__title{
+            font-size: 26px;
+        }
+        &__img{
+            display: none;
+        }
+        &__buttons{
+            margin-top: 65px;
+        }
+        &__button{
+            font-size: 13px;
+        }
+    }
+    .why{
+        .top-why{
+            &__icon{
+                width: 70px;
+            }
+        }
+        &__bottom{
+            .bottom-why{
+                &__text{
+                    font-size: 19px;
+                }
+                &__about-text{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .example{
+        .tab-example{
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .advantage{
+        .list-advantage{
+            &__body{
+                margin-left: 25px;
+            }
+        }
+    }
+    .material{
+        .list-material{
+            grid-template-columns: 1fr;
+            grid-gap: 50px;
+            &__item{
+                height: 130px;
+            }
+        }
+    }
+    .order{
+        background: none;
+    }
+    .sink{
+        .list-sink{
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+            &__image{
+                width: 50%;
+            }
+        }
+    }
+    .calculate{
+        &__title{
+            font-size: 26px;
+        }
+        .form-calculate{
+            &__left{
+                margin-left: 0;
+                width: 100%;
+            }
+            &__wrapper{
+                flex-direction: column;
+            }
+            & select,
+            & input{
+                width: auto;
+            }
+            &__submit{
+                width: 100%!important;
+            }
+        }
+    }
+    .question{
+        background: none;
+    }
+    .contact{
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+        &__map{
+            width: 100%;
+        }
+        &__title{
+            text-align: center;
+        }
+    }
+}

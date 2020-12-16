@@ -1,0 +1,31 @@
+.question {
+  padding: 100px 0;
+  background: url("../images/main/question/1.jpg") no-repeat center right ;
+  .form-question {
+    &__title {
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 55px;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 156%;
+        max-width: 405px;
+        margin-top: 14px;
+    }
+    &__inputs {
+      width: 387px;
+      margin-top: 45px;
+      & input + input {
+        margin-top: 40px;
+      }
+    }
+    &__call {
+      width: 100%;
+      display: block;
+      text-align: center;
+      padding: 13px 0;
+      margin-top: 40px;
+    }
+  }
+}

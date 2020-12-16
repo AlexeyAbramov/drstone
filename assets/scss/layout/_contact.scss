@@ -1,0 +1,49 @@
+.contact {
+  padding: 70px 0;
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 93px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+  &__body {
+    margin-top: 46px;
+  }
+  .links-contact {
+    max-width: 340px;
+    &__item {
+      display: grid;
+      grid-template-columns: 25px auto;
+      grid-gap: 40px;
+      & + .links-contact__item {
+        margin-top: 35px;
+      }
+    }
+    &__link {
+      color: $black;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 117%;
+    }
+  }
+  &__socials {
+    display: flex;
+    margin-top: 68px;
+  }
+  .social-contact {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    &__item + .social-contact__item{
+        margin-left: 31px;
+    }
+  }
+  &__headline {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

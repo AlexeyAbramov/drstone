@@ -1,0 +1,22 @@
+.footer{
+    padding: 60px 0 45px 0;
+    background: url('../images/bg-black.jpg') no-repeat center center / cover;
+    .list-footer{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 511px;
+    }
+    &__title,
+    &__policy{
+        color: $white;
+        text-align: center;
+    }
+    &__title{
+        margin-top: 31px;
+    }
+    &__policy{
+        margin-top: 34px;
+    }
+
+}

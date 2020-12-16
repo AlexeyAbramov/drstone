@@ -1,0 +1,14 @@
+.button {
+  padding: 24px 45px;
+  &_white {
+    color: $black;
+    background-color: $white;
+  }
+  &_black {
+    color: $white;
+    background: url("../images/bg-black.jpg");
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 200%;
+  }
+}

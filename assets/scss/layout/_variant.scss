@@ -1,0 +1,21 @@
+.variant {
+  padding: 70px 0 130px 0;
+  background: url("../images/bg-black.jpg");
+  &__heading {
+    text-align: center;
+  }
+  &__title {
+    color: $white;
+  }
+  &__body {
+    margin-top: 70px;
+  }
+  .list-variant {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+    grid-gap: 20px;
+    &__image {
+      width: 100%;
+    }
+  }
+}

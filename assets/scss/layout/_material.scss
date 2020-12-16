@@ -1,0 +1,23 @@
+.material{
+    padding: 70px 0;
+    background: url('../images/bg-white.jpg') no-repeat center center  / cover;
+    &__heading{
+        text-align: center;
+    }
+    &__text{
+        margin-top: 30px;
+        line-height: 22px;
+    }
+    &__body{
+        margin-top: 77px;
+    }
+    .list-material{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        &__item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

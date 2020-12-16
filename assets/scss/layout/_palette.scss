@@ -1,0 +1,22 @@
+.palette {
+  padding-bottom: 86px;
+  &__heading {
+    text-align: center;
+  }
+  &__text {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  &__catalog {
+    margin-top: 65px;
+    text-align: center;
+  }
+  &__button {
+    color: $black;
+    border: 1px solid $black;
+    font-size: 24px;
+    line-height: 200%;
+    font-weight: 600;
+  }
+}

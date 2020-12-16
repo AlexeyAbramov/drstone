@@ -1,0 +1,53 @@
+.work {
+  padding: 70px 0 120px 0;
+  background: url("../images/bg-black.jpg") no-repeat center center / cover;
+  &__heading {
+    text-align: center;
+  }
+  &__title {
+    color: $white;
+  }
+  &__body {
+    margin-top: 70px;
+  }
+  .list-work {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+    grid-gap: 20px;
+    &__item {
+      display: grid;
+      grid-template-rows: 113px 78px 159px;
+      text-align: center;
+      align-items: center;
+    }
+    &__title,
+    &__count {
+      color: $white;
+    }
+    &__title,
+    &__text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 25px;
+      border: 1px solid $white;
+      height: 100%;
+    }
+    &__count {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 75%;
+    }
+    &__text {
+      background-color: $white;
+      height: 100%;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      padding: 0 19px;
+    }
+  }
+}

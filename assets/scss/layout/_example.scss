@@ -1,0 +1,45 @@
+.example {
+  padding: 70px 0 80px 0;
+  background: url("../images/bg-black.jpg") no-repeat center center / cover;
+  &__heading {
+    text-align: center;
+  }
+  &__title{
+      color: $white;
+  }
+  .tab-example {
+    display: flex;
+    width: 100%;
+    max-width: 835px;
+    justify-content: space-between;
+    margin: 0 auto;
+    &__item {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 200%;
+    }
+  }
+  &__body{
+      margin-top: 30px;
+    .example__list-picture{
+        margin-top: 50px;
+    }
+  }
+  .picture-example{
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(285px, 1fr));
+      grid-gap: 20px;
+      &__image{
+          width: 100%;
+      }
+  }
+  &__button{
+      margin-top: 84px;
+      text-align: center;
+  }
+  &__btn{
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 200%;
+  }
+}
